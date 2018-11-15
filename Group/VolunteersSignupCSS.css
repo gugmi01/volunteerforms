@@ -1,0 +1,29 @@
+body {
+    font-family: Gotham-Book, sans-serif;
+    font-size: 15px; 
+}
+
+.cssForm {
+	background-color: transparent;
+}
+
+.cssLabelsColumn {
+	width: 200px;
+	vertical-align: top;
+	font-family: Gotham-Black, sans-serif;
+	font-size: 1em;
+	text-align: right;	
+	vertical-align: center;
+	
+}
+
+.cssInputFieldsColumn {
+	vertical-align: top;
+}
+
+.cssInputFields {
+}
+
+.cssTextArea { 
+	width:500px; 
+}

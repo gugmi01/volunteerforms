@@ -1,0 +1,249 @@
+/* Other styles */
+ul li {
+  margin-left: 5px;
+}
+
+.ui-widget {
+  font-size: small;
+}
+
+div.editable {
+  width: 560px;
+  height: 75px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  overflow-y: scroll;
+  font-size: small;
+}
+
+input.txt {
+  width: 312px;
+}
+
+.AOIWidth {
+  width: 312px;
+}
+
+.a-img {
+  width: 50px;
+}
+
+.custom-tooltip {
+  border-color: rgb(124, 190, 85);
+  max-width: 200px;
+  background: rgb(197, 224, 180);
+  border-radius: 0px;
+}
+
+.header {
+  color: rgb(124, 190, 85);
+}
+
+textarea {
+  resize: none;
+  width: 230px;
+}
+
+#error {
+  color: red;
+}
+
+.btn {
+  font-style: normal;
+  margin-right: 1px;
+  background: #45861e;
+  padding: .75em 1.5em;
+  color: #fff;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1em;
+}
+
+input {
+  background: #eee;
+}
+
+textarea {
+  background: #eee;
+}
+
+.hid {
+  display: None;
+}
+
+.uhid {
+  display: block;
+}
+
+.hids {
+  display: None;
+}
+
+.uhids {
+  display: block;
+}
+
+td {
+  valign=bottom;
+}
+
+.ui-multiselect-checkboxes label input {
+  margin-right: 8px;
+}
+
+.msplt {
+  display: none;
+}
+
+@-moz-document url-prefix() {
+  .a-img {
+    width: 19px;
+  }
+}
+
+:root .a-img {
+  width: 24px \;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: Gotham-Book, sans-serif;
+  font-size: 15px;
+}
+
+#wrap {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  padding: 4% 0;
+}
+
+/* Head styles */
+.bbutton {
+  margin-top: 3%;
+  float: right;
+  margin-right: 5%;
+}
+
+#header {
+  margin-left: 10%;
+}
+
+/* Form Style */
+.cssForm table tbody tr {
+  margin-bottom: 5%;
+}
+
+.cssForm {
+  background-color: transparent;
+}
+
+#j_id0\:frm\:j_id12\:15\:j_id16 {
+  width: auto;
+}
+
+.cssLabelsColumn {
+  width: 200px;
+  font-family: Gotham-Black, sans-serif;
+  font-size: 1em;
+  vertical-align: center !important;
+  padding: 4px !important;
+  text-align: right;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 150px;
+  -ms-flex: 0 0 150px;
+  flex: 0 0 150px;
+}
+
+table {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cssInputFieldsColumn {
+  vertical-align: top;
+}
+
+.cssInputFields {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: .75em;
+  border: 1px solid #d4d4d4;
+  background: #ebebeb;
+  margin-bottom: 2%;
+}
+
+.multiSelectPicklistCell {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.multiSelectPicklistCell a {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.cssTextArea {
+  width: 500px;
+}
+
+.multiSelectPicklistRow td select {
+  background-color: white;
+}
+
+table.multiSelectPicklistTable {
+  width: 100%;
+}
+
+input[type="button"i] {
+  border-width: 0px !important;
+  border-image: initial;
+}
+
+#j_id0\:frm\:btnSave {
+  width: 60%;
+  color: white;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto !important;
+  background-color: rgb(141, 198, 63) !important;
+  font-weight: 600 !important;
+  font-family: 'Gotham Black', 'Roboto', sans-serif !important;
+  letter-spacing: 0.1em;
+  border-radius: 4px;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+}
+
+/* form#j_id0\:frm table tbody tr:nth-last-child(2) td:first-of-type{
+  display: none;
+} */
+/* Footer Styles */
+#bottom ul li {
+  float: none !important;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .bbutton {
+    margin-bottom: 3%;
+    width: 100%;
+    margin-top: 0;
+    float: left;
+  }
+
+  /* form#j_id0\:frm table tbody tr:nth-last-child(2) td:nth-of-type(2){
+    width: 100%
+  } */
+}
