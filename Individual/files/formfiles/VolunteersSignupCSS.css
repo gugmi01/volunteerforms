@@ -253,9 +253,9 @@ input[type="button"i] {
   float: none !important;
   margin-right: 0;
 }
-#j_id0\:frm\:j_id12\:15\:j_id16{
-  margin-top:1%;
-}
+/* #j_id0\:frm\:j_id12\:15\:j_id16{
+  margin-top:10%;
+} */
 
 @media screen and (max-width: 768px) {
   .bbutton {
